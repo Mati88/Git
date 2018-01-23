@@ -1,7 +1,7 @@
 package calculator;
 
 public class Calculator {
-    public float plus(float a, float b) {
+    public float add(float a, float b) {
         return a + b;
     }
 
@@ -25,8 +25,9 @@ public class Calculator {
         for (int i = 1; i < b; i++) {
             result *= a;
         }
+        return result;
 
-
+    }
 }
 
 
