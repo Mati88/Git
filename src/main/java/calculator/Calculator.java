@@ -5,15 +5,15 @@ public class Calculator {
         return a + b;
     }
 
-    public float minus(float a, float b) {
+    public float subtract(float a, float b) {
         return a - b;
     }
 
-    public float times(float a, float b) {
+    public float multiply(float a, float b) {
         return a * b;
     }
 
-    public float by(float a, float b) {
+    public float divide(float a, float b) {
         if (b == 0f) {
             throw new IllegalArgumentException("Division by 0!");
         }
